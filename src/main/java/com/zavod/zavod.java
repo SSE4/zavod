@@ -46,6 +46,14 @@ public class zavod {
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "zavod" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
+    public static final DeferredBlock<Block> POLISHED_DIAMOND = BLOCKS.registerSimpleBlock("polished_diamond",
+            p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_DIAMOND_ITEM = ITEMS.registerSimpleBlockItem("polished_diamond", POLISHED_DIAMOND);
+
+    public static final DeferredBlock<Block> DIAMOND_BRICKS = BLOCKS.registerSimpleBlock("diamond_bricks",
+            p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> DIAMOND_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("diamond_bricks", DIAMOND_BRICKS);
+
     public static final DeferredBlock<Block> DIAMOND_TILES = BLOCKS.registerSimpleBlock("diamond_tiles",
             p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
     public static final DeferredItem<BlockItem> DIAMOND_TILES_ITEM = ITEMS.registerSimpleBlockItem("diamond_tiles", DIAMOND_TILES);
@@ -104,6 +112,8 @@ public class zavod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(POLISHED_DIAMOND_ITEM);
+            event.accept(DIAMOND_BRICKS_ITEM);
             event.accept(DIAMOND_TILES_ITEM);
         }
     }

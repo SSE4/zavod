@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "zavod:diamond_bricks"
+    "#": "zavod:polished_diamond"
   },
   "pattern": [
     "##",
     "##"
   ],
   "result": {
-    "id": "zavod:diamond_tiles",
+    "id": "zavod:diamond_bricks",
     "count": 4
   }
 }

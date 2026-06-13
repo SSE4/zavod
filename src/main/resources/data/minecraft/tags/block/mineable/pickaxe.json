@@ -1,5 +1,7 @@
 {
   "values": [
+    "zavod:polished_diamond",
+    "zavod:diamond_bricks",
     "zavod:diamond_tiles"
   ]
 }
