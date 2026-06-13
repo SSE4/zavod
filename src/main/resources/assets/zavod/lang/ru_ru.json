@@ -1,0 +1,15 @@
+{
+  "itemGroup.zavod": "Завод",
+  "block.zavod.polished_diamond": "Полированный алмаз",
+  "block.zavod.diamond_bricks": "Алмазный кирпич",
+  "block.zavod.diamond_tiles": "Алмазная плитка",
+  "item.zavod.example_item": "Пример предмета",
+
+  "zavod.configuration.title": "Настройки Zavod",
+  "zavod.configuration.section.zavod.common.toml": "Настройки Zavod",
+  "zavod.configuration.section.zavod.common.toml.title": "Настройки Zavod",
+  "zavod.configuration.items": "Список предметов",
+  "zavod.configuration.logDirtBlock": "Логировать блок земли",
+  "zavod.configuration.magicNumberIntroduction": "Текст магического числа",
+  "zavod.configuration.magicNumber": "Магическое число"
+}
