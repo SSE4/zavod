@@ -1,0 +1,13 @@
+{
+  "itemGroup.zavod": "Example Mod Tab",
+  "block.zavod.example_block": "Example Block",
+  "item.zavod.example_item": "Example Item",
+
+  "zavod.configuration.title": "zavod Configs",
+  "zavod.configuration.section.zavod.common.toml": "zavod Configs",
+  "zavod.configuration.section.zavod.common.toml.title": "zavod Configs",
+  "zavod.configuration.items": "Item List",
+  "zavod.configuration.logDirtBlock": "Log Dirt Block",
+  "zavod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "zavod.configuration.magicNumber": "Magic Number"
+}
