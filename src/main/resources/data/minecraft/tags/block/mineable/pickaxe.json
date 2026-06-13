@@ -1,7 +1,28 @@
 {
   "values": [
-    "zavod:polished_diamond",
+    "zavod:amethyst_bricks",
+    "zavod:amethyst_tiles",
     "zavod:diamond_bricks",
-    "zavod:diamond_tiles"
+    "zavod:diamond_tiles",
+    "zavod:emerald_bricks",
+    "zavod:emerald_tiles",
+    "zavod:gold_bricks",
+    "zavod:gold_tiles",
+    "zavod:iron_bricks",
+    "zavod:iron_tiles",
+    "zavod:lapis_bricks",
+    "zavod:lapis_tiles",
+    "zavod:netherite_bricks",
+    "zavod:netherite_tiles",
+    "zavod:polished_amethyst",
+    "zavod:polished_diamond",
+    "zavod:polished_emerald",
+    "zavod:polished_gold",
+    "zavod:polished_iron",
+    "zavod:polished_lapis",
+    "zavod:polished_netherite",
+    "zavod:polished_redstone",
+    "zavod:redstone_bricks",
+    "zavod:redstone_tiles"
   ]
 }

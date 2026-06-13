@@ -1,8 +1,38 @@
 {
   "itemGroup.zavod": "Zavod",
+
   "block.zavod.polished_diamond": "Polished Diamond",
   "block.zavod.diamond_bricks": "Diamond Bricks",
   "block.zavod.diamond_tiles": "Diamond Tiles",
+
+  "block.zavod.polished_iron": "Polished Iron",
+  "block.zavod.iron_bricks": "Iron Bricks",
+  "block.zavod.iron_tiles": "Iron Tiles",
+
+  "block.zavod.polished_gold": "Polished Gold",
+  "block.zavod.gold_bricks": "Gold Bricks",
+  "block.zavod.gold_tiles": "Gold Tiles",
+
+  "block.zavod.polished_redstone": "Polished Redstone",
+  "block.zavod.redstone_bricks": "Redstone Bricks",
+  "block.zavod.redstone_tiles": "Redstone Tiles",
+
+  "block.zavod.polished_emerald": "Polished Emerald",
+  "block.zavod.emerald_bricks": "Emerald Bricks",
+  "block.zavod.emerald_tiles": "Emerald Tiles",
+
+  "block.zavod.polished_amethyst": "Polished Amethyst",
+  "block.zavod.amethyst_bricks": "Amethyst Bricks",
+  "block.zavod.amethyst_tiles": "Amethyst Tiles",
+
+  "block.zavod.polished_lapis": "Polished Lapis",
+  "block.zavod.lapis_bricks": "Lapis Bricks",
+  "block.zavod.lapis_tiles": "Lapis Tiles",
+
+  "block.zavod.polished_netherite": "Polished Netherite",
+  "block.zavod.netherite_bricks": "Netherite Bricks",
+  "block.zavod.netherite_tiles": "Netherite Tiles",
+
   "item.zavod.example_item": "Example Item",
 
   "zavod.configuration.title": "zavod Configs",

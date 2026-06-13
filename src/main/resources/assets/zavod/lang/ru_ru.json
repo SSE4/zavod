@@ -1,8 +1,38 @@
 {
   "itemGroup.zavod": "Завод",
+
   "block.zavod.polished_diamond": "Полированный алмаз",
   "block.zavod.diamond_bricks": "Алмазный кирпич",
   "block.zavod.diamond_tiles": "Алмазная плитка",
+
+  "block.zavod.polished_iron": "Полированное железо",
+  "block.zavod.iron_bricks": "Железный кирпич",
+  "block.zavod.iron_tiles": "Железная плитка",
+
+  "block.zavod.polished_gold": "Полированное золото",
+  "block.zavod.gold_bricks": "Золотой кирпич",
+  "block.zavod.gold_tiles": "Золотая плитка",
+
+  "block.zavod.polished_redstone": "Полированный редстоун",
+  "block.zavod.redstone_bricks": "Кирпич из редстоуна",
+  "block.zavod.redstone_tiles": "Плитка из редстоуна",
+
+  "block.zavod.polished_emerald": "Полированный изумруд",
+  "block.zavod.emerald_bricks": "Изумрудный кирпич",
+  "block.zavod.emerald_tiles": "Изумрудная плитка",
+
+  "block.zavod.polished_amethyst": "Полированный аметист",
+  "block.zavod.amethyst_bricks": "Аметистовый кирпич",
+  "block.zavod.amethyst_tiles": "Аметистовая плитка",
+
+  "block.zavod.polished_lapis": "Полированный лазурит",
+  "block.zavod.lapis_bricks": "Кирпич из лазурита",
+  "block.zavod.lapis_tiles": "Плитка из лазурита",
+
+  "block.zavod.polished_netherite": "Полированный незерит",
+  "block.zavod.netherite_bricks": "Кирпич из незерита",
+  "block.zavod.netherite_tiles": "Плитка из незерита",
+
   "item.zavod.example_item": "Пример предмета",
 
   "zavod.configuration.title": "Настройки Zavod",

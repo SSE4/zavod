@@ -49,14 +49,82 @@ public class zavod {
     public static final DeferredBlock<Block> POLISHED_DIAMOND = BLOCKS.registerSimpleBlock("polished_diamond",
             p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
     public static final DeferredItem<BlockItem> POLISHED_DIAMOND_ITEM = ITEMS.registerSimpleBlockItem("polished_diamond", POLISHED_DIAMOND);
-
     public static final DeferredBlock<Block> DIAMOND_BRICKS = BLOCKS.registerSimpleBlock("diamond_bricks",
             p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
     public static final DeferredItem<BlockItem> DIAMOND_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("diamond_bricks", DIAMOND_BRICKS);
-
     public static final DeferredBlock<Block> DIAMOND_TILES = BLOCKS.registerSimpleBlock("diamond_tiles",
             p -> p.mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
     public static final DeferredItem<BlockItem> DIAMOND_TILES_ITEM = ITEMS.registerSimpleBlockItem("diamond_tiles", DIAMOND_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_IRON = BLOCKS.registerSimpleBlock("polished_iron",
+            p -> p.mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_IRON_ITEM = ITEMS.registerSimpleBlockItem("polished_iron", POLISHED_IRON);
+    public static final DeferredBlock<Block> IRON_BRICKS = BLOCKS.registerSimpleBlock("iron_bricks",
+            p -> p.mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> IRON_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("iron_bricks", IRON_BRICKS);
+    public static final DeferredBlock<Block> IRON_TILES = BLOCKS.registerSimpleBlock("iron_tiles",
+            p -> p.mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> IRON_TILES_ITEM = ITEMS.registerSimpleBlockItem("iron_tiles", IRON_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_GOLD = BLOCKS.registerSimpleBlock("polished_gold",
+            p -> p.mapColor(MapColor.GOLD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_GOLD_ITEM = ITEMS.registerSimpleBlockItem("polished_gold", POLISHED_GOLD);
+    public static final DeferredBlock<Block> GOLD_BRICKS = BLOCKS.registerSimpleBlock("gold_bricks",
+            p -> p.mapColor(MapColor.GOLD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> GOLD_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("gold_bricks", GOLD_BRICKS);
+    public static final DeferredBlock<Block> GOLD_TILES = BLOCKS.registerSimpleBlock("gold_tiles",
+            p -> p.mapColor(MapColor.GOLD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> GOLD_TILES_ITEM = ITEMS.registerSimpleBlockItem("gold_tiles", GOLD_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_REDSTONE = BLOCKS.registerSimpleBlock("polished_redstone",
+            p -> p.mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_REDSTONE_ITEM = ITEMS.registerSimpleBlockItem("polished_redstone", POLISHED_REDSTONE);
+    public static final DeferredBlock<Block> REDSTONE_BRICKS = BLOCKS.registerSimpleBlock("redstone_bricks",
+            p -> p.mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> REDSTONE_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("redstone_bricks", REDSTONE_BRICKS);
+    public static final DeferredBlock<Block> REDSTONE_TILES = BLOCKS.registerSimpleBlock("redstone_tiles",
+            p -> p.mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> REDSTONE_TILES_ITEM = ITEMS.registerSimpleBlockItem("redstone_tiles", REDSTONE_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_EMERALD = BLOCKS.registerSimpleBlock("polished_emerald",
+            p -> p.mapColor(MapColor.EMERALD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_EMERALD_ITEM = ITEMS.registerSimpleBlockItem("polished_emerald", POLISHED_EMERALD);
+    public static final DeferredBlock<Block> EMERALD_BRICKS = BLOCKS.registerSimpleBlock("emerald_bricks",
+            p -> p.mapColor(MapColor.EMERALD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> EMERALD_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("emerald_bricks", EMERALD_BRICKS);
+    public static final DeferredBlock<Block> EMERALD_TILES = BLOCKS.registerSimpleBlock("emerald_tiles",
+            p -> p.mapColor(MapColor.EMERALD).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> EMERALD_TILES_ITEM = ITEMS.registerSimpleBlockItem("emerald_tiles", EMERALD_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_AMETHYST = BLOCKS.registerSimpleBlock("polished_amethyst",
+            p -> p.mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_AMETHYST_ITEM = ITEMS.registerSimpleBlockItem("polished_amethyst", POLISHED_AMETHYST);
+    public static final DeferredBlock<Block> AMETHYST_BRICKS = BLOCKS.registerSimpleBlock("amethyst_bricks",
+            p -> p.mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> AMETHYST_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("amethyst_bricks", AMETHYST_BRICKS);
+    public static final DeferredBlock<Block> AMETHYST_TILES = BLOCKS.registerSimpleBlock("amethyst_tiles",
+            p -> p.mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> AMETHYST_TILES_ITEM = ITEMS.registerSimpleBlockItem("amethyst_tiles", AMETHYST_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_LAPIS = BLOCKS.registerSimpleBlock("polished_lapis",
+            p -> p.mapColor(MapColor.LAPIS).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> POLISHED_LAPIS_ITEM = ITEMS.registerSimpleBlockItem("polished_lapis", POLISHED_LAPIS);
+    public static final DeferredBlock<Block> LAPIS_BRICKS = BLOCKS.registerSimpleBlock("lapis_bricks",
+            p -> p.mapColor(MapColor.LAPIS).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> LAPIS_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("lapis_bricks", LAPIS_BRICKS);
+    public static final DeferredBlock<Block> LAPIS_TILES = BLOCKS.registerSimpleBlock("lapis_tiles",
+            p -> p.mapColor(MapColor.LAPIS).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.METAL));
+    public static final DeferredItem<BlockItem> LAPIS_TILES_ITEM = ITEMS.registerSimpleBlockItem("lapis_tiles", LAPIS_TILES);
+
+    public static final DeferredBlock<Block> POLISHED_NETHERITE = BLOCKS.registerSimpleBlock("polished_netherite",
+            p -> p.mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.NETHERITE_BLOCK));
+    public static final DeferredItem<BlockItem> POLISHED_NETHERITE_ITEM = ITEMS.registerSimpleBlockItem("polished_netherite", POLISHED_NETHERITE);
+    public static final DeferredBlock<Block> NETHERITE_BRICKS = BLOCKS.registerSimpleBlock("netherite_bricks",
+            p -> p.mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.NETHERITE_BLOCK));
+    public static final DeferredItem<BlockItem> NETHERITE_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("netherite_bricks", NETHERITE_BRICKS);
+    public static final DeferredBlock<Block> NETHERITE_TILES = BLOCKS.registerSimpleBlock("netherite_tiles",
+            p -> p.mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.NETHERITE_BLOCK));
+    public static final DeferredItem<BlockItem> NETHERITE_TILES_ITEM = ITEMS.registerSimpleBlockItem("netherite_tiles", NETHERITE_TILES);
 
     // Creates a new food item with the id "zavod:example_id", nutrition 1 and saturation 2
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", p -> p.food(new FoodProperties.Builder()
@@ -115,6 +183,27 @@ public class zavod {
             event.accept(POLISHED_DIAMOND_ITEM);
             event.accept(DIAMOND_BRICKS_ITEM);
             event.accept(DIAMOND_TILES_ITEM);
+            event.accept(POLISHED_IRON_ITEM);
+            event.accept(IRON_BRICKS_ITEM);
+            event.accept(IRON_TILES_ITEM);
+            event.accept(POLISHED_GOLD_ITEM);
+            event.accept(GOLD_BRICKS_ITEM);
+            event.accept(GOLD_TILES_ITEM);
+            event.accept(POLISHED_REDSTONE_ITEM);
+            event.accept(REDSTONE_BRICKS_ITEM);
+            event.accept(REDSTONE_TILES_ITEM);
+            event.accept(POLISHED_EMERALD_ITEM);
+            event.accept(EMERALD_BRICKS_ITEM);
+            event.accept(EMERALD_TILES_ITEM);
+            event.accept(POLISHED_AMETHYST_ITEM);
+            event.accept(AMETHYST_BRICKS_ITEM);
+            event.accept(AMETHYST_TILES_ITEM);
+            event.accept(POLISHED_LAPIS_ITEM);
+            event.accept(LAPIS_BRICKS_ITEM);
+            event.accept(LAPIS_TILES_ITEM);
+            event.accept(POLISHED_NETHERITE_ITEM);
+            event.accept(NETHERITE_BRICKS_ITEM);
+            event.accept(NETHERITE_TILES_ITEM);
         }
     }
 

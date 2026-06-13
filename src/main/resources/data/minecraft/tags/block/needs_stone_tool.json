@@ -1,0 +1,10 @@
+{
+  "values": [
+    "zavod:iron_bricks",
+    "zavod:iron_tiles",
+    "zavod:lapis_bricks",
+    "zavod:lapis_tiles",
+    "zavod:polished_iron",
+    "zavod:polished_lapis"
+  ]
+}

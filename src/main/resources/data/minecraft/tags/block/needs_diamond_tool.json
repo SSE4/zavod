@@ -1,7 +1,10 @@
 {
   "values": [
-    "zavod:polished_diamond",
     "zavod:diamond_bricks",
-    "zavod:diamond_tiles"
+    "zavod:diamond_tiles",
+    "zavod:netherite_bricks",
+    "zavod:netherite_tiles",
+    "zavod:polished_diamond",
+    "zavod:polished_netherite"
   ]
 }

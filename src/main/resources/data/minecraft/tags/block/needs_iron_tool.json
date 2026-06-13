@@ -1,0 +1,16 @@
+{
+  "values": [
+    "zavod:amethyst_bricks",
+    "zavod:amethyst_tiles",
+    "zavod:emerald_bricks",
+    "zavod:emerald_tiles",
+    "zavod:gold_bricks",
+    "zavod:gold_tiles",
+    "zavod:polished_amethyst",
+    "zavod:polished_emerald",
+    "zavod:polished_gold",
+    "zavod:polished_redstone",
+    "zavod:redstone_bricks",
+    "zavod:redstone_tiles"
+  ]
+}
