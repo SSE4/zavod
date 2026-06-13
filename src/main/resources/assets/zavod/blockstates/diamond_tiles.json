@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zavod:block/diamond_tiles"
+    }
+  }
+}

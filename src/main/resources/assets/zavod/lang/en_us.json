@@ -1,6 +1,6 @@
 {
   "itemGroup.zavod": "Example Mod Tab",
-  "block.zavod.example_block": "Example Block",
+  "block.zavod.diamond_tiles": "Diamond Tiles",
   "item.zavod.example_item": "Example Item",
 
   "zavod.configuration.title": "zavod Configs",
